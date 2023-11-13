@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    background-color: #e7e5c1;
+}
+
+@font-face {
+        font-family: 'sexo' ;
+        src: url(bebas.otf) format('opentype'), url(bebas.ttf) format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+@font-face {
+    font-family: 'droid';
+    src: url(idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header > h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    border: 10px;
+    color: white;
+    background-image: linear-gradient(to top, #043d1c, #2da461);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    text-align: left;
+}
+
+nav > a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #c1fddc;
+}
+
+nav > a:hover{
+    background-color: #27a25f;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    color: #00591c;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+main{
+    background-color: white;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    padding: 2px 15px 30px 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.274);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+}
+
+main p{
+    text-indent: 30px;
+}
+
+main > h2{
+    font-family: 'droid', Arial, Helvetica, sans-serif;
+    color: #075424;
+}
+
+main > h3{
+    background-image: linear-gradient(to right, #78deaa, #f6fdf8 );
+    color: #076d2e;
+    font-family: 'droid', Arial, Helvetica, sans-serif;
+}
+
+main > p > a{
+    color: #076d2e;
+    background-color: #78deaa;
+    text-decoration: none;
+    padding: 2px;
+    font-weight: bold;
+}
+
+main > p > a:hover{
+    color: #076d2e;
+    background-color: #78deaa;
+    text-decoration: none;
+    padding: 2px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main > section > p > a{
+    color: #024b1e;
+    background-color: #78deaa;
+    text-decoration: none;
+    padding: 2px;
+    font-weight: bolder;
+}
+
+main > section > p > a:hover{
+    color: #024b1e;
+    background-color: #78deaa;
+    text-decoration: none;
+    padding: 2px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+main > div.dov{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+main > div.dove{
+    background-color: #043d1b;
+    margin: 0px -15px;
+    padding: 20px;
+    padding-bottom: 55.9%;
+    position: relative;
+}
+
+main > div.dove > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+main > h4{
+    background-color: #155d31;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 0px;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+main > section{
+    background-color: #7fe1a9;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+main > section > nav > li {
+    display: inline-block;
+}
+
+
+main > section > div.esp{
+    display: flex;
+}
+
+main > section > div > ul.esq{
+    margin-right: 150px;
+}
+
+main > section > div.esp > ul > li > a{
+    color: black;
+}
+
+footer{
+    background-color: #155d31;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
